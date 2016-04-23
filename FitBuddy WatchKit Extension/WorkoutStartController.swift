@@ -8,8 +8,7 @@
 
 import Foundation
 import WatchKit
-import FitBuddyModel
-import FitBuddyCommon
+
 
 class WorkoutStartController: WKInterfaceController {
     
