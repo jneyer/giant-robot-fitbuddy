@@ -20,7 +20,7 @@ class ExerciseLogCell: UITableViewCell {
     @IBOutlet weak var valueTypeLabel: UILabel!
     @IBOutlet weak var iconImageView: UIImageView!
     
-    func setCellValues (#name: String, workout: String, value: String?, valueType: String, exerciseType: ExerciseType) {
+    func setCellValues (name: String, workout: String, value: String?, valueType: String, exerciseType: ExerciseType) {
      
         nameLabel.text = name
         workoutLabel.text = workout
@@ -37,8 +37,6 @@ class ExerciseLogCell: UITableViewCell {
             iconImageView.image = UIImage(named: FBConstants.kRESISTANCELOGICON)
         case .CARDIO:
             iconImageView.image = UIImage(named: FBConstants.kCARDIOLOGICON)
-        default:
-            iconImageView.image = nil
         }
     }
 }

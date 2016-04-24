@@ -10,6 +10,7 @@ import Foundation
 import UIKit
 import FitBuddyModel
 import FitBuddyCommon
+import CoreData
 
 class LogbookEntryViewController: UIViewController {
     
@@ -79,7 +80,16 @@ class LogbookEntryViewController: UIViewController {
         let frc: NSFetchedResultsController = NSFetchedResultsController(fetchRequest: request, managedObjectContext: AppDelegate.sharedAppDelegate().managedObjectContext!, sectionNameKeyPath: nil, cacheName: nil)
         
         var error: NSError? = nil
-        frc.performFetch(&error)
+        
+        do {
+            try frc.performFetch()
+        } catch let e as NSError {
+            error = e
+        }
+        
+        if error != nil {
+            NSLog("error while loading entry %@", error!)
+        }
         
         NSLog("Retrieving logbook")
         let array = frc.fetchedObjects

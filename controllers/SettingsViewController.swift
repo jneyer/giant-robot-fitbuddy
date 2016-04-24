@@ -25,7 +25,7 @@ class SettingsViewController: UITableViewController {
     
     func loadTableFromDefaults() {
         
-        for cell : UITableViewCell in tableView.visibleCells() as! [UITableViewCell] {
+        for cell : UITableViewCell in tableView.visibleCells as! [UITableViewCell] {
             let label = cell.viewWithTag(100) as! UILabel
             let detail = cell.viewWithTag(200) as? UILabel
             

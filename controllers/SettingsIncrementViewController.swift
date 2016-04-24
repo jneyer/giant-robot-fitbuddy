@@ -10,6 +10,7 @@ import Foundation
 import UIKit
 import FitBuddyCommon
 import FitBuddyModel
+import CoreData
 
 class SettingsIncrementViewController : UIViewController, UIAlertViewDelegate, UIPickerViewDataSource, UIPickerViewDelegate {
     
@@ -17,7 +18,6 @@ class SettingsIncrementViewController : UIViewController, UIAlertViewDelegate, U
     var pickerValues : NSMutableArray = []
     
     var activityIndicatorView = UIActivityIndicatorView(activityIndicatorStyle: UIActivityIndicatorViewStyle.WhiteLarge)
-
     
     @IBOutlet weak var picker: UIPickerView!
     @IBOutlet weak var spinnerTitle: UILabel!
@@ -155,13 +155,21 @@ class SettingsIncrementViewController : UIViewController, UIAlertViewDelegate, U
         let options = CoreDataConnection.defaultConnection.defaultStoreOptions(true)
         waitForiCloudResponse()
         
-        let oldstore = AppDelegate.sharedAppDelegate().persistentStoreCoordinator!.persistentStores.last as! NSPersistentStore
+        let oldstore = AppDelegate.sharedAppDelegate().persistentStoreCoordinator!.persistentStores.last! as NSPersistentStore
         
         if recovery {
             
-            AppDelegate.sharedAppDelegate().persistentStoreCoordinator!.addPersistentStoreWithType(NSSQLiteStoreType, configuration: nil, URL: CoreDataHelper2.coreDataUbiquityURL()!, options: options, error: &error)
+            do {
+                try AppDelegate.sharedAppDelegate().persistentStoreCoordinator!.addPersistentStoreWithType(NSSQLiteStoreType, configuration: nil, URL: CoreDataHelper2.coreDataUbiquityURL()!, options: options)
+            } catch let e as NSError {
+                error = e
+            }
             
-            AppDelegate.sharedAppDelegate().persistentStoreCoordinator!.removePersistentStore(oldstore, error: &error)
+            do {
+                try AppDelegate.sharedAppDelegate().persistentStoreCoordinator!.removePersistentStore(oldstore)
+            } catch let e as NSError {
+                error = e
+            }
             
             FitBuddyUtils.setDefault(FBConstants.kUBIQUITYURLKEY, value: CoreDataHelper2.coreDataUbiquityURL()!.path!)
             
@@ -173,7 +181,11 @@ class SettingsIncrementViewController : UIViewController, UIAlertViewDelegate, U
         }
         else {
             
-            AppDelegate.sharedAppDelegate().persistentStoreCoordinator!.migratePersistentStore(oldstore, toURL: CoreDataHelper2.coreDataUbiquityURL()!, options: options, withType: NSSQLiteStoreType, error: &error)
+            do {
+                try AppDelegate.sharedAppDelegate().persistentStoreCoordinator!.migratePersistentStore(oldstore, toURL: CoreDataHelper2.coreDataUbiquityURL()!, options: options, withType: NSSQLiteStoreType)
+            } catch let e as NSError {
+                error = e
+            }
             
             if error != nil {
                 NSLog("Failed to migrate Local to iCloud store: %@", error!);
@@ -190,9 +202,11 @@ class SettingsIncrementViewController : UIViewController, UIAlertViewDelegate, U
         let options = CoreDataConnection.defaultConnection.defaultStoreOptions(false)
         waitForiCloudResponse()
         
-        let oldstore = AppDelegate.sharedAppDelegate().persistentStoreCoordinator!.persistentStores.last as! NSPersistentStore
-        
-        AppDelegate.sharedAppDelegate().persistentStoreCoordinator!.addPersistentStoreWithType(NSSQLiteStoreType, configuration: nil, URL: CoreDataHelper2.coreDataGroupURL(), options: options, error: &error)
+        do {
+            try AppDelegate.sharedAppDelegate().persistentStoreCoordinator!.addPersistentStoreWithType(NSSQLiteStoreType, configuration: nil, URL: CoreDataHelper2.coreDataGroupURL(), options: options)
+        } catch let e as NSError {
+            error = e
+        }
         
         if error != nil {
             NSLog("Failed to migrate iCloud to local store: %@", error!)
@@ -213,7 +227,7 @@ class SettingsIncrementViewController : UIViewController, UIAlertViewDelegate, U
         NSLog("Got response from iCloud")
         activityIndicatorView.stopAnimating()
         UIApplication.sharedApplication().keyWindow?.userInteractionEnabled = true
-        activityIndicatorView = nil
+        activityIndicatorView.removeFromSuperview()
         NSNotificationCenter.defaultCenter().removeObserver(self)
         self.exit()
     }
@@ -222,7 +236,7 @@ class SettingsIncrementViewController : UIViewController, UIAlertViewDelegate, U
         
         let viewSize = aView.bounds.size
         
-        if activityIndicatorView == nil {
+        if !activityIndicatorView.isAnimating() {
             activityIndicatorView = UIActivityIndicatorView(activityIndicatorStyle: UIActivityIndicatorViewStyle.WhiteLarge)
         }
         activityIndicatorView.bounds = CGRectMake(0, 0, 65, 65)

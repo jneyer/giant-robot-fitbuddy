@@ -53,7 +53,7 @@ class LogbookChartData {
             days.append(dayStringFromDate(date))
             
             // move back in time by one day:
-            date = cal.dateByAddingUnit(.CalendarUnitDay, value: -1, toDate: date, options: nil)!
+            date = cal.dateByAddingUnit(.NSDayCalendarUnit, value: -1, toDate: date, options: NSCalendarOptions.MatchFirst)!
         }
         return days.reverse()
     }
@@ -87,7 +87,7 @@ class LogbookChartData {
         
         for entry in entries {
             
-            if let i = find(days, dayStringFromDate(entry.date)) {
+            if let i = days.indexOf(dayStringFromDate(entry.date)) {
                 
                 if entry.weight != nil && entry.reps != nil && entry.sets != nil {
                     let resistance = ((entry.weight! as NSString).doubleValue * (entry.reps! as NSString).doubleValue * (entry.sets! as NSString).doubleValue)
@@ -121,8 +121,8 @@ class LogbookChartData {
     
     private func dayStringFromDate (date : NSDate) -> String {
         let cal = NSCalendar.currentCalendar()
-        let day = cal.component(.CalendarUnitDay, fromDate: date)
-        let month = cal.component(.CalendarUnitMonth , fromDate: date)
+        let day = cal.component(.NSDayCalendarUnit , fromDate: date)
+        let month = cal.component(.NSMonthCalendarUnit , fromDate: date)
         return String(month) + "/" + String(day)
     }
     

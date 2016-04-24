@@ -70,7 +70,7 @@ class LogbookTableData {
         for entry in entries {
             let dateString = FitBuddyUtils.dateFromNSDate(entry.date_t, format: "dd MMM yyyy")
             
-            if !contains(sectionData, dateString) {
+            if !sectionData.contains(dateString) {
                 sectionData.append(dateString)
             }
         }
@@ -92,13 +92,13 @@ class LogbookTableData {
             workoutElement.date = dateString
             
             // start a new array if needed
-            if  !contains(dates, dateString) {
+            if  !dates.contains(dateString) {
                 dates.append(dateString)
                 workoutData.append(Array<WorkoutArrayData>())
             }
 
             // Add a new workout element
-            if !contains(workoutKeys, key) {
+            if !workoutKeys.contains(key) {
                 workoutKeys.append(key)
                 
                 // add the workout array data to the array
@@ -109,7 +109,7 @@ class LogbookTableData {
                 }
             }
             
-            if var lastElement = workoutData.last {
+            if let lastElement = workoutData.last {
                 lastElement.last?.exercises.append(entry)
             }
         }

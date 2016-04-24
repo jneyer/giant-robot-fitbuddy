@@ -15,7 +15,8 @@
 		D60B4CBE14D7A888001ECCE3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D60B4CBD14D7A888001ECCE3 /* UIKit.framework */; };
 		D60B4CC014D7A888001ECCE3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D60B4CBF14D7A888001ECCE3 /* Foundation.framework */; };
 		D60B4CC214D7A888001ECCE3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D60B4CC114D7A888001ECCE3 /* CoreGraphics.framework */; };
-		D618251A1CCC23A10065B16C /* FitBuddy WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = D6B174D61AFA5043009E40D3 /* FitBuddy WatchKit App.app */; };
+		D61637631CCC751300D5AC03 /* FitBuddyCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D616375E1CCC742800D5AC03 /* FitBuddyCommon.framework */; };
+		D61637641CCC751800D5AC03 /* FitBuddyModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D61637551CCC741C00D5AC03 /* FitBuddyModel.framework */; };
 		D625E86C18B00EF900FFE96D /* WorkoutModeParentController2.m in Sources */ = {isa = PBXBuildFile; fileRef = D625E86618B00ED900FFE96D /* WorkoutModeParentController2.m */; };
 		D625E86E18B00EF900FFE96D /* WorkoutModeViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = D625E86818B00ED900FFE96D /* WorkoutModeViewController2.m */; };
 		D62DB82D1AFBD12B00EA5A55 /* AlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62DB82C1AFBD12B00EA5A55 /* AlertViewController.swift */; };
@@ -24,17 +25,18 @@
 		D666BE0D1AF929CF00256911 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6CEC98A14DA6A6C002DC3B0 /* CoreData.framework */; };
 		D66F5D1D1B14B3C500049FDD /* LogbookChartData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66F5D1C1B14B3C500049FDD /* LogbookChartData.swift */; };
 		D66F5D1F1B15122400049FDD /* LogbookTableData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66F5D1E1B15122400049FDD /* LogbookTableData.swift */; };
+		D6715FD81CCC3E88007AAA62 /* GymBuddyMappingModel1.0.xcmappingmodel in Sources */ = {isa = PBXBuildFile; fileRef = D6715FC81CCC3E88007AAA62 /* GymBuddyMappingModel1.0.xcmappingmodel */; };
+		D6715FD91CCC3E88007AAA62 /* GymBuddyMappingModel1.1.xcmappingmodel in Sources */ = {isa = PBXBuildFile; fileRef = D6715FC91CCC3E88007AAA62 /* GymBuddyMappingModel1.1.xcmappingmodel */; };
+		D6715FDA1CCC3E88007AAA62 /* GymBuddyMappingModel1.2.xcmappingmodel in Sources */ = {isa = PBXBuildFile; fileRef = D6715FCA1CCC3E88007AAA62 /* GymBuddyMappingModel1.2.xcmappingmodel */; };
+		D6715FDB1CCC3E88007AAA62 /* GymBuddyMappingModel1.3.xcmappingmodel in Sources */ = {isa = PBXBuildFile; fileRef = D6715FCB1CCC3E88007AAA62 /* GymBuddyMappingModel1.3.xcmappingmodel */; };
 		D67E167018B31C97001E9257 /* icon-small.png in Resources */ = {isa = PBXBuildFile; fileRef = D67E166E18B31C97001E9257 /* icon-small.png */; };
 		D67E167118B31C97001E9257 /* icon-big.png in Resources */ = {isa = PBXBuildFile; fileRef = D67E166F18B31C97001E9257 /* icon-big.png */; };
-		D687907D1AF927B000D8E6DE /* FitBuddyCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D68790721AF927AF00D8E6DE /* FitBuddyCommon.framework */; };
 		D68F6DC71B07C3EC00F99E3F /* LogbookEntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68F6DC61B07C3EC00F99E3F /* LogbookEntryViewController.swift */; };
 		D68F6DC91B0844D000F99E3F /* LogbookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68F6DC81B0844D000F99E3F /* LogbookViewController.swift */; };
 		D68F6DCB1B08E9AB00F99E3F /* ExerciseLogCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68F6DCA1B08E9AB00F99E3F /* ExerciseLogCell.swift */; };
 		D68F6DCD1B08EA2000F99E3F /* WorkoutLogCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68F6DCC1B08EA2000F99E3F /* WorkoutLogCell.swift */; };
 		D68F6DD31B09900600F99E3F /* LineChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68F6DD21B09900600F99E3F /* LineChart.swift */; };
-		D6A4EDCB1CCBFA2100709F2C /* FitBuddy WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D6B174CC1AFA5043009E40D3 /* FitBuddy WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		D6A4EDD21CCBFDBA00709F2C /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6A4EDD11CCBFDBA00709F2C /* CloudKit.framework */; };
-		D6A4EDDB1CCC091F00709F2C /* FitBuddyCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D68790721AF927AF00D8E6DE /* FitBuddyCommon.framework */; };
 		D6A4EDDF1CCC0B4700709F2C /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6A4EDDE1CCC0B4700709F2C /* CoreData.framework */; };
 		D6B088A81AF1280800962EDB /* NSData+GZIP.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B088A71AF1280800962EDB /* NSData+GZIP.swift */; };
 		D6B174D11AFA5043009E40D3 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B174D01AFA5043009E40D3 /* InterfaceController.swift */; };
@@ -62,14 +64,42 @@
 		D6C2CB0C170E6D5300BA02DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D6C2CB0A170E6D5300BA02DA /* InfoPlist.strings */; };
 		D6C49F881901FECC001A8E41 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6C49F871901FECC001A8E41 /* AVFoundation.framework */; };
 		D6C49F8A1901FF68001A8E41 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6C49F891901FF68001A8E41 /* CoreImage.framework */; };
-		D6CE06671AF9A374008CF9BD /* FitBuddyCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D68790721AF927AF00D8E6DE /* FitBuddyCommon.framework */; };
 		D6CEC98B14DA6A6C002DC3B0 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6CEC98A14DA6A6C002DC3B0 /* CoreData.framework */; };
 		D6D32F7B1AED6B020057F00B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D32F7A1AED6B020057F00B /* AppDelegate.swift */; };
 		D6D32F7E1AED6C580057F00B /* WorkoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D32F7D1AED6C580057F00B /* WorkoutViewController.swift */; };
+		D6FC8CD01CCC482500799539 /* GymBuddyModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D6FC8CC41CCC482500799539 /* GymBuddyModel.xcdatamodeld */; };
 		D6FF1D151870B50A004A1D2A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6FF1D141870B50A004A1D2A /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		D61637541CCC741C00D5AC03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D616374E1CCC741C00D5AC03 /* FitBuddyModel.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D6F368DD1CCC10E200DBC9F1;
+			remoteInfo = FitBuddyModel;
+		};
+		D61637561CCC741C00D5AC03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D616374E1CCC741C00D5AC03 /* FitBuddyModel.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D6F368E71CCC10E200DBC9F1;
+			remoteInfo = FitBuddyModelTests;
+		};
+		D616375D1CCC742800D5AC03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D61637581CCC742800D5AC03 /* FitBuddyCommon.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D6F369401CCC147300DBC9F1;
+			remoteInfo = FitBuddyCommon;
+		};
+		D616375F1CCC742800D5AC03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D61637581CCC742800D5AC03 /* FitBuddyCommon.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D6F3694A1CCC147300DBC9F1;
+			remoteInfo = FitBuddyCommonTests;
+		};
 		D687907E1AF927B000D8E6DE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D60B4CB014D7A888001ECCE3 /* Project object */;
@@ -115,13 +145,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		D6715FC21CCC3DAA007AAA62 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D6A4EDCF1CCBFA2100709F2C /* Embed App Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				D6A4EDCB1CCBFA2100709F2C /* FitBuddy WatchKit Extension.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -132,7 +170,6 @@
 			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
 			dstSubfolderSpec = 16;
 			files = (
-				D618251A1CCC23A10065B16C /* FitBuddy WatchKit App.app in Embed Watch Content */,
 			);
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -151,7 +188,8 @@
 		D60B4CBF14D7A888001ECCE3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D60B4CC114D7A888001ECCE3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		D6135CD3151027D30055F337 /* FitBuddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitBuddy.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D61824FA1CCC204E0065B16C /* FitBuddyModel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FitBuddyModel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D616374E1CCC741C00D5AC03 /* FitBuddyModel.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = FitBuddyModel.xcodeproj; path = FitBuddyModel/FitBuddyModel.xcodeproj; sourceTree = "<group>"; };
+		D61637581CCC742800D5AC03 /* FitBuddyCommon.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = FitBuddyCommon.xcodeproj; path = FitBuddyCommon/FitBuddyCommon.xcodeproj; sourceTree = "<group>"; };
 		D625E86518B00ED900FFE96D /* WorkoutModeParentController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WorkoutModeParentController2.h; path = FitBuddy/NewWorkoutModeControllers/WorkoutModeParentController2.h; sourceTree = SOURCE_ROOT; };
 		D625E86618B00ED900FFE96D /* WorkoutModeParentController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WorkoutModeParentController2.m; path = FitBuddy/NewWorkoutModeControllers/WorkoutModeParentController2.m; sourceTree = SOURCE_ROOT; };
 		D625E86718B00ED900FFE96D /* WorkoutModeViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WorkoutModeViewController2.h; path = FitBuddy/NewWorkoutModeControllers/WorkoutModeViewController2.h; sourceTree = SOURCE_ROOT; };
@@ -164,10 +202,18 @@
 		D6570A7A1B041E0D00DD945A /* FitBuddy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = FitBuddy.entitlements; path = FitBuddy/FitBuddy.entitlements; sourceTree = "<group>"; };
 		D66F5D1C1B14B3C500049FDD /* LogbookChartData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LogbookChartData.swift; path = controllers/LogbookChartData.swift; sourceTree = SOURCE_ROOT; };
 		D66F5D1E1B15122400049FDD /* LogbookTableData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LogbookTableData.swift; path = controllers/LogbookTableData.swift; sourceTree = SOURCE_ROOT; };
+		D6715FAD1CCC2ECC007AAA62 /* FitBuddyModel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FitBuddyModel.framework; path = "/Users/jneyer/Unity/Projects/giant-robot-fitbuddy/build/Debug-iphoneos/FitBuddyModel.framework"; sourceTree = "<absolute>"; };
+		D6715FAE1CCC2ECC007AAA62 /* FitBuddyCommon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FitBuddyCommon.framework; path = "/Users/jneyer/Unity/Projects/giant-robot-fitbuddy/build/Debug-iphoneos/FitBuddyCommon.framework"; sourceTree = "<absolute>"; };
+		D6715FAF1CCC2ECC007AAA62 /* FitBuddyModelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = FitBuddyModelTests.xctest; path = "/Users/jneyer/Unity/Projects/giant-robot-fitbuddy/build/Debug-iphoneos/FitBuddyModelTests.xctest"; sourceTree = "<absolute>"; };
+		D6715FB01CCC2ECC007AAA62 /* FitBuddyCommonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = FitBuddyCommonTests.xctest; path = "/Users/jneyer/Unity/Projects/giant-robot-fitbuddy/build/Debug-iphoneos/FitBuddyCommonTests.xctest"; sourceTree = "<absolute>"; };
+		D6715FB11CCC2ECC007AAA62 /* FitBuddy WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "FitBuddy WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6715FB21CCC2ECC007AAA62 /* FitBuddy WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FitBuddy WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6715FC81CCC3E88007AAA62 /* GymBuddyMappingModel1.0.xcmappingmodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcmappingmodel; path = GymBuddyMappingModel1.0.xcmappingmodel; sourceTree = "<group>"; };
+		D6715FC91CCC3E88007AAA62 /* GymBuddyMappingModel1.1.xcmappingmodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcmappingmodel; path = GymBuddyMappingModel1.1.xcmappingmodel; sourceTree = "<group>"; };
+		D6715FCA1CCC3E88007AAA62 /* GymBuddyMappingModel1.2.xcmappingmodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcmappingmodel; path = GymBuddyMappingModel1.2.xcmappingmodel; sourceTree = "<group>"; };
+		D6715FCB1CCC3E88007AAA62 /* GymBuddyMappingModel1.3.xcmappingmodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcmappingmodel; path = GymBuddyMappingModel1.3.xcmappingmodel; sourceTree = "<group>"; };
 		D67E166E18B31C97001E9257 /* icon-small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-small.png"; sourceTree = SOURCE_ROOT; };
 		D67E166F18B31C97001E9257 /* icon-big.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-big.png"; sourceTree = SOURCE_ROOT; };
-		D68790721AF927AF00D8E6DE /* FitBuddyCommon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FitBuddyCommon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D687907C1AF927B000D8E6DE /* FitBuddyCommonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitBuddyCommonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D68F6DC61B07C3EC00F99E3F /* LogbookEntryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LogbookEntryViewController.swift; path = controllers/LogbookEntryViewController.swift; sourceTree = SOURCE_ROOT; };
 		D68F6DC81B0844D000F99E3F /* LogbookViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LogbookViewController.swift; path = controllers/LogbookViewController.swift; sourceTree = SOURCE_ROOT; };
 		D68F6DCA1B08E9AB00F99E3F /* ExerciseLogCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ExerciseLogCell.swift; path = controllers/ExerciseLogCell.swift; sourceTree = SOURCE_ROOT; };
@@ -176,10 +222,8 @@
 		D6A4EDD11CCBFDBA00709F2C /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 		D6A4EDDE1CCC0B4700709F2C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS2.2.sdk/System/Library/Frameworks/CoreData.framework; sourceTree = DEVELOPER_DIR; };
 		D6B088A71AF1280800962EDB /* NSData+GZIP.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSData+GZIP.swift"; sourceTree = SOURCE_ROOT; };
-		D6B174CC1AFA5043009E40D3 /* FitBuddy WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "FitBuddy WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6B174CF1AFA5043009E40D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D6B174D01AFA5043009E40D3 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
-		D6B174D61AFA5043009E40D3 /* FitBuddy WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FitBuddy WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6B174DC1AFA5043009E40D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D6B174DE1AFA5043009E40D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		D6B174E01AFA5043009E40D3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -226,8 +270,18 @@
 		D6D32F7D1AED6C580057F00B /* WorkoutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutViewController.swift; sourceTree = SOURCE_ROOT; };
 		D6D32FB21AF04C900057F00B /* WatchKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchKit.framework; path = System/Library/Frameworks/WatchKit.framework; sourceTree = SDKROOT; };
 		D6DA9A0E1AF6FA740009E2B6 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
-		D6DC0D481AF8FC6D00988D65 /* FitBuddyModelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitBuddyModelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6E6F4411AFE8F3C00FB4BA8 /* FitBuddy-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FitBuddy-Bridging-Header.h"; sourceTree = "<group>"; };
+		D6FC8CC51CCC482500799539 /* GymBuddyModel0.0.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GymBuddyModel0.0.xcdatamodel; sourceTree = "<group>"; };
+		D6FC8CC61CCC482500799539 /* GymBuddyModel1. 4.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "GymBuddyModel1. 4.xcdatamodel"; sourceTree = "<group>"; };
+		D6FC8CC71CCC482500799539 /* GymBuddyModel1.0.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GymBuddyModel1.0.xcdatamodel; sourceTree = "<group>"; };
+		D6FC8CC81CCC482500799539 /* GymBuddyModel1.1.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GymBuddyModel1.1.xcdatamodel; sourceTree = "<group>"; };
+		D6FC8CC91CCC482500799539 /* GymBuddyModel1.2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GymBuddyModel1.2.xcdatamodel; sourceTree = "<group>"; };
+		D6FC8CCA1CCC482500799539 /* GymBuddyModel1.3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GymBuddyModel1.3.xcdatamodel; sourceTree = "<group>"; };
+		D6FC8CCB1CCC482500799539 /* GymBuddyModel1.4.1.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GymBuddyModel1.4.1.xcdatamodel; sourceTree = "<group>"; };
+		D6FC8CCC1CCC482500799539 /* GymBuddyModel1.4.2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GymBuddyModel1.4.2.xcdatamodel; sourceTree = "<group>"; };
+		D6FC8CCD1CCC482500799539 /* GymBuddyModel1.4.3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GymBuddyModel1.4.3.xcdatamodel; sourceTree = "<group>"; };
+		D6FC8CCE1CCC482500799539 /* GymBuddyModel1.4.4.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GymBuddyModel1.4.4.xcdatamodel; sourceTree = "<group>"; };
+		D6FC8CCF1CCC482500799539 /* GymBuddyModel1.4.5.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GymBuddyModel1.4.5.xcdatamodel; sourceTree = "<group>"; };
 		D6FF1D141870B50A004A1D2A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = FitBuddy/Images.xcassets; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
@@ -236,6 +290,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D61637641CCC751800D5AC03 /* FitBuddyModel.framework in Frameworks */,
+				D61637631CCC751300D5AC03 /* FitBuddyCommon.framework in Frameworks */,
 				D6C26B2B14F15A710068DEA5 /* libz.dylib in Frameworks */,
 				D63E445818AB2DA500A13883 /* QuartzCore.framework in Frameworks */,
 				D60B4CC214D7A888001ECCE3 /* CoreGraphics.framework in Frameworks */,
@@ -260,7 +316,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D687907D1AF927B000D8E6DE /* FitBuddyCommon.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,7 +324,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				D6A4EDDF1CCC0B4700709F2C /* CoreData.framework in Frameworks */,
-				D6A4EDDB1CCC091F00709F2C /* FitBuddyCommon.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,7 +331,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D6CE06671AF9A374008CF9BD /* FitBuddyCommon.framework in Frameworks */,
 				D666BE0D1AF929CF00256911 /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -306,20 +359,18 @@
 		D60B4CAE14D7A888001ECCE3 = {
 			isa = PBXGroup;
 			children = (
+				D616374E1CCC741C00D5AC03 /* FitBuddyModel.xcodeproj */,
+				D61637581CCC742800D5AC03 /* FitBuddyCommon.xcodeproj */,
 				D6570A7A1B041E0D00DD945A /* FitBuddy.entitlements */,
 				D62D027D1B0418CC00A6641B /* FitBuddy WatchKit Extension.entitlements */,
 				D60B4CC314D7A888001ECCE3 /* FitBuddy (obj-c) */,
 				D6D32F7C1AED6BD60057F00B /* FitBuddy (Swift) */,
+				D6715FC71CCC3E3C007AAA62 /* schema */,
 				D6454FBE1AF7C0C0008291A8 /* Watchkit Interface */,
-				D6454FBB1AF7BFF2008291A8 /* Shared Frameworks */,
 				D60B4CBC14D7A888001ECCE3 /* Frameworks */,
 				D6135CD3151027D30055F337 /* FitBuddy.app */,
-				D6DC0D481AF8FC6D00988D65 /* FitBuddyModelTests.xctest */,
-				D68790721AF927AF00D8E6DE /* FitBuddyCommon.framework */,
-				D687907C1AF927B000D8E6DE /* FitBuddyCommonTests.xctest */,
-				D6B174CC1AFA5043009E40D3 /* FitBuddy WatchKit Extension.appex */,
-				D6B174D61AFA5043009E40D3 /* FitBuddy WatchKit App.app */,
-				D61824FA1CCC204E0065B16C /* FitBuddyModel.framework */,
+				D6715FB11CCC2ECC007AAA62 /* FitBuddy WatchKit Extension.appex */,
+				D6715FB21CCC2ECC007AAA62 /* FitBuddy WatchKit App.app */,
 			);
 			sourceTree = "<group>";
 		};
@@ -374,6 +425,24 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		D616374F1CCC741C00D5AC03 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D61637551CCC741C00D5AC03 /* FitBuddyModel.framework */,
+				D61637571CCC741C00D5AC03 /* FitBuddyModel.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D61637591CCC742800D5AC03 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D616375E1CCC742800D5AC03 /* FitBuddyCommon.framework */,
+				D61637601CCC742800D5AC03 /* FitBuddyCommonTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		D625E85818B00D5600FFE96D /* New Workout Mode */ = {
 			isa = PBXGroup;
 			children = (
@@ -386,13 +455,6 @@
 			path = ../FitBuddy/WorkoutModeControllers;
 			sourceTree = "<group>";
 		};
-		D6454FBB1AF7BFF2008291A8 /* Shared Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = "Shared Frameworks";
-			sourceTree = "<group>";
-		};
 		D6454FBE1AF7C0C0008291A8 /* Watchkit Interface */ = {
 			isa = PBXGroup;
 			children = (
@@ -400,6 +462,18 @@
 				D6B174DA1AFA5043009E40D3 /* FitBuddy WatchKit App */,
 			);
 			name = "Watchkit Interface";
+			sourceTree = "<group>";
+		};
+		D6715FC71CCC3E3C007AAA62 /* schema */ = {
+			isa = PBXGroup;
+			children = (
+				D6FC8CC41CCC482500799539 /* GymBuddyModel.xcdatamodeld */,
+				D6715FC81CCC3E88007AAA62 /* GymBuddyMappingModel1.0.xcmappingmodel */,
+				D6715FC91CCC3E88007AAA62 /* GymBuddyMappingModel1.1.xcmappingmodel */,
+				D6715FCA1CCC3E88007AAA62 /* GymBuddyMappingModel1.2.xcmappingmodel */,
+				D6715FCB1CCC3E88007AAA62 /* GymBuddyMappingModel1.3.xcmappingmodel */,
+			);
+			path = schema;
 			sourceTree = "<group>";
 		};
 		D67825D614E583B600C00BD4 /* Components */ = {
@@ -589,6 +663,7 @@
 				D60B4CB614D7A888001ECCE3 /* Frameworks */,
 				D60B4CB714D7A888001ECCE3 /* Resources */,
 				D6A4EDD01CCBFA2100709F2C /* Embed Watch Content */,
+				D6715FC21CCC3DAA007AAA62 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -614,7 +689,7 @@
 			);
 			name = FitBuddyCommon;
 			productName = FitBuddyCommon;
-			productReference = D68790721AF927AF00D8E6DE /* FitBuddyCommon.framework */;
+			productReference = D6715FAE1CCC2ECC007AAA62 /* FitBuddyCommon.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		D687907B1AF927B000D8E6DE /* FitBuddyCommonTests */ = {
@@ -633,7 +708,7 @@
 			);
 			name = FitBuddyCommonTests;
 			productName = FitBuddyCommonTests;
-			productReference = D687907C1AF927B000D8E6DE /* FitBuddyCommonTests.xctest */;
+			productReference = D6715FB01CCC2ECC007AAA62 /* FitBuddyCommonTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		D6B174CB1AFA5043009E40D3 /* FitBuddy WatchKit Extension */ = {
@@ -650,7 +725,7 @@
 			);
 			name = "FitBuddy WatchKit Extension";
 			productName = "FitBuddy WatchKit Extension";
-			productReference = D6B174CC1AFA5043009E40D3 /* FitBuddy WatchKit Extension.appex */;
+			productReference = D6715FB11CCC2ECC007AAA62 /* FitBuddy WatchKit Extension.appex */;
 			productType = "com.apple.product-type.watchkit2-extension";
 		};
 		D6B174D51AFA5043009E40D3 /* FitBuddy WatchKit App */ = {
@@ -667,7 +742,7 @@
 			);
 			name = "FitBuddy WatchKit App";
 			productName = "FitBuddy WatchKit App";
-			productReference = D6B174D61AFA5043009E40D3 /* FitBuddy WatchKit App.app */;
+			productReference = D6715FB21CCC2ECC007AAA62 /* FitBuddy WatchKit App.app */;
 			productType = "com.apple.product-type.application.watchapp2";
 		};
 		D6DC0D3D1AF8FC6D00988D65 /* FitBuddyModel */ = {
@@ -686,7 +761,7 @@
 			);
 			name = FitBuddyModel;
 			productName = FitBuddyModel;
-			productReference = D61824FA1CCC204E0065B16C /* FitBuddyModel.framework */;
+			productReference = D6715FAD1CCC2ECC007AAA62 /* FitBuddyModel.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		D6DC0D471AF8FC6D00988D65 /* FitBuddyModelTests */ = {
@@ -705,7 +780,7 @@
 			);
 			name = FitBuddyModelTests;
 			productName = FitBuddyModelTests;
-			productReference = D6DC0D481AF8FC6D00988D65 /* FitBuddyModelTests.xctest */;
+			productReference = D6715FAF1CCC2ECC007AAA62 /* FitBuddyModelTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -807,6 +882,16 @@
 			mainGroup = D60B4CAE14D7A888001ECCE3;
 			productRefGroup = D60B4CAE14D7A888001ECCE3;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = D61637591CCC742800D5AC03 /* Products */;
+					ProjectRef = D61637581CCC742800D5AC03 /* FitBuddyCommon.xcodeproj */;
+				},
+				{
+					ProductGroup = D616374F1CCC741C00D5AC03 /* Products */;
+					ProjectRef = D616374E1CCC741C00D5AC03 /* FitBuddyModel.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				D60B4CB814D7A888001ECCE3 /* FitBuddy */,
@@ -819,6 +904,37 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		D61637551CCC741C00D5AC03 /* FitBuddyModel.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = FitBuddyModel.framework;
+			remoteRef = D61637541CCC741C00D5AC03 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D61637571CCC741C00D5AC03 /* FitBuddyModel.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = FitBuddyModel.xctest;
+			remoteRef = D61637561CCC741C00D5AC03 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D616375E1CCC742800D5AC03 /* FitBuddyCommon.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = FitBuddyCommon.framework;
+			remoteRef = D616375D1CCC742800D5AC03 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D61637601CCC742800D5AC03 /* FitBuddyCommonTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = FitBuddyCommonTests.xctest;
+			remoteRef = D616375F1CCC742800D5AC03 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		D60B4CB714D7A888001ECCE3 /* Resources */ = {
@@ -886,8 +1002,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6715FDB1CCC3E88007AAA62 /* GymBuddyMappingModel1.3.xcmappingmodel in Sources */,
 				D66F5D1F1B15122400049FDD /* LogbookTableData.swift in Sources */,
 				D6D32F7B1AED6B020057F00B /* AppDelegate.swift in Sources */,
+				D6715FDA1CCC3E88007AAA62 /* GymBuddyMappingModel1.2.xcmappingmodel in Sources */,
 				D625E86C18B00EF900FFE96D /* WorkoutModeParentController2.m in Sources */,
 				D625E86E18B00EF900FFE96D /* WorkoutModeViewController2.m in Sources */,
 				D6B088A81AF1280800962EDB /* NSData+GZIP.swift in Sources */,
@@ -898,11 +1016,14 @@
 				D6C2CA21170E6BB400BA02DA /* NSData+CocoaDevUsersAdditions.m in Sources */,
 				D6C2CA5B170E6C4000BA02DA /* ExerciseAddViewController.m in Sources */,
 				D68F6DD31B09900600F99E3F /* LineChart.swift in Sources */,
+				D6715FD81CCC3E88007AAA62 /* GymBuddyMappingModel1.0.xcmappingmodel in Sources */,
 				D6C2CA5C170E6C4000BA02DA /* ExerciseControlController.m in Sources */,
+				D6715FD91CCC3E88007AAA62 /* GymBuddyMappingModel1.1.xcmappingmodel in Sources */,
 				D6C2CA5D170E6C4000BA02DA /* ExerciseEditViewController.m in Sources */,
 				D6C2CA5E170E6C4000BA02DA /* ExerciseListTableViewController.m in Sources */,
 				D6C0AF0318A34990004F599E /* SwitchCell.m in Sources */,
 				D66F5D1D1B14B3C500049FDD /* LogbookChartData.swift in Sources */,
+				D6FC8CD01CCC482500799539 /* GymBuddyModel.xcdatamodeld in Sources */,
 				D609105D1B015A35001D86C9 /* SettingsIncrementViewController.swift in Sources */,
 				D6D32F7E1AED6C580057F00B /* WorkoutViewController.swift in Sources */,
 				D68F6DCB1B08E9AB00F99E3F /* ExerciseLogCell.swift in Sources */,
@@ -1045,7 +1166,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MODULE_NAME = FitBuddy;
 				ONLY_ACTIVE_ARCH = YES;
 				PROVISIONING_PROFILE = "6b7abad7-de64-4718-8c2c-e5d04d5e26a5";
@@ -1081,7 +1202,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MODULE_NAME = FitBuddy;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PROVISIONING_PROFILE = "6b7abad7-de64-4718-8c2c-e5d04d5e26a5";
@@ -1148,197 +1269,107 @@
 			};
 			name = Release;
 		};
-		D687908C1AF927B000D8E6DE /* Debug */ = {
+		D6715FB61CCC31A6007AAA62 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				INFOPLIST_FILE = FitBuddyCommon/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/SharedFrameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.giantrobotlabs.FitBuddy.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = FitBuddyModel;
 			};
 			name = Debug;
 		};
-		D687908D1AF927B000D8E6DE /* Release */ = {
+		D6715FB71CCC31A6007AAA62 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
+				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				INFOPLIST_FILE = FitBuddyCommon/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/SharedFrameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.giantrobotlabs.FitBuddy.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				SKIP_INSTALL = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				PRODUCT_NAME = FitBuddyModel;
 			};
 			name = Release;
 		};
-		D687908E1AF927B000D8E6DE /* Distribution */ = {
+		D6715FB81CCC31A6007AAA62 /* Distribution */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				INFOPLIST_FILE = FitBuddyCommon/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/SharedFrameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.giantrobotlabs.FitBuddy.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				SKIP_INSTALL = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				PRODUCT_NAME = FitBuddyModel;
 			};
 			name = Distribution;
 		};
-		D68790901AF927B000D8E6DE /* Debug */ = {
+		D6715FB91CCC31A6007AAA62 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				INFOPLIST_FILE = FitBuddyCommonTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.giantrobotlabs.FitBuddy.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FitBuddy.app/FitBuddy";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = FitBuddyModelTests;
 			};
 			name = Debug;
 		};
-		D68790911AF927B000D8E6DE /* Release */ = {
+		D6715FBA1CCC31A6007AAA62 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
+				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				INFOPLIST_FILE = FitBuddyCommonTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.giantrobotlabs.FitBuddy.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FitBuddy.app/FitBuddy";
+				PRODUCT_NAME = FitBuddyModelTests;
 			};
 			name = Release;
 		};
-		D68790921AF927B000D8E6DE /* Distribution */ = {
+		D6715FBB1CCC31A6007AAA62 /* Distribution */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				PRODUCT_NAME = FitBuddyModelTests;
+			};
+			name = Distribution;
+		};
+		D6715FBC1CCC31A6007AAA62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
 				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = FitBuddyCommon;
+			};
+			name = Debug;
+		};
+		D6715FBD1CCC31A6007AAA62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				INFOPLIST_FILE = FitBuddyCommonTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.giantrobotlabs.FitBuddy.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FitBuddy.app/FitBuddy";
+				PRODUCT_NAME = FitBuddyCommon;
+			};
+			name = Release;
+		};
+		D6715FBE1CCC31A6007AAA62 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = FitBuddyCommon;
+			};
+			name = Distribution;
+		};
+		D6715FBF1CCC31A6007AAA62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = FitBuddyCommonTests;
+			};
+			name = Debug;
+		};
+		D6715FC01CCC31A6007AAA62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				PRODUCT_NAME = FitBuddyCommonTests;
+			};
+			name = Release;
+		};
+		D6715FC11CCC31A6007AAA62 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = FitBuddyCommonTests;
 			};
 			name = Distribution;
 		};
@@ -1575,7 +1606,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MODULE_NAME = FitBuddy;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PROVISIONING_PROFILE = "6b7abad7-de64-4718-8c2c-e5d04d5e26a5";
@@ -1613,212 +1644,6 @@
 			};
 			name = Distribution;
 		};
-		D6DC0D581AF8FC6E00988D65 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				INFOPLIST_FILE = FitBuddyModel/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/SharedFrameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.giantrobotlabs.FitBuddy.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				SKIP_INSTALL = YES;
-				SWIFT_INSTALL_OBJC_HEADER = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		D6DC0D591AF8FC6E00988D65 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				INFOPLIST_FILE = FitBuddyModel/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/SharedFrameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.giantrobotlabs.FitBuddy.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				SKIP_INSTALL = YES;
-				SWIFT_INSTALL_OBJC_HEADER = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		D6DC0D5A1AF8FC6E00988D65 /* Distribution */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				INFOPLIST_FILE = FitBuddyModel/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/SharedFrameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.giantrobotlabs.FitBuddy.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				SKIP_INSTALL = YES;
-				SWIFT_INSTALL_OBJC_HEADER = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Distribution;
-		};
-		D6DC0D5C1AF8FC6E00988D65 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				INFOPLIST_FILE = FitBuddyModelTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.giantrobotlabs.FitBuddy.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FitBuddy.app/FitBuddy";
-			};
-			name = Debug;
-		};
-		D6DC0D5D1AF8FC6E00988D65 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				INFOPLIST_FILE = FitBuddyModelTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.giantrobotlabs.FitBuddy.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FitBuddy.app/FitBuddy";
-			};
-			name = Release;
-		};
-		D6DC0D5E1AF8FC6E00988D65 /* Distribution */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				INFOPLIST_FILE = FitBuddyModelTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.giantrobotlabs.FitBuddy.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FitBuddy.app/FitBuddy";
-			};
-			name = Distribution;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1845,9 +1670,9 @@
 		D687908B1AF927B000D8E6DE /* Build configuration list for PBXNativeTarget "FitBuddyCommon" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D687908C1AF927B000D8E6DE /* Debug */,
-				D687908D1AF927B000D8E6DE /* Release */,
-				D687908E1AF927B000D8E6DE /* Distribution */,
+				D6715FBC1CCC31A6007AAA62 /* Debug */,
+				D6715FBD1CCC31A6007AAA62 /* Release */,
+				D6715FBE1CCC31A6007AAA62 /* Distribution */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1855,9 +1680,9 @@
 		D687908F1AF927B000D8E6DE /* Build configuration list for PBXNativeTarget "FitBuddyCommonTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D68790901AF927B000D8E6DE /* Debug */,
-				D68790911AF927B000D8E6DE /* Release */,
-				D68790921AF927B000D8E6DE /* Distribution */,
+				D6715FBF1CCC31A6007AAA62 /* Debug */,
+				D6715FC01CCC31A6007AAA62 /* Release */,
+				D6715FC11CCC31A6007AAA62 /* Distribution */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1885,9 +1710,9 @@
 		D6DC0D571AF8FC6E00988D65 /* Build configuration list for PBXNativeTarget "FitBuddyModel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D6DC0D581AF8FC6E00988D65 /* Debug */,
-				D6DC0D591AF8FC6E00988D65 /* Release */,
-				D6DC0D5A1AF8FC6E00988D65 /* Distribution */,
+				D6715FB61CCC31A6007AAA62 /* Debug */,
+				D6715FB71CCC31A6007AAA62 /* Release */,
+				D6715FB81CCC31A6007AAA62 /* Distribution */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1895,14 +1720,37 @@
 		D6DC0D5B1AF8FC6E00988D65 /* Build configuration list for PBXNativeTarget "FitBuddyModelTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D6DC0D5C1AF8FC6E00988D65 /* Debug */,
-				D6DC0D5D1AF8FC6E00988D65 /* Release */,
-				D6DC0D5E1AF8FC6E00988D65 /* Distribution */,
+				D6715FB91CCC31A6007AAA62 /* Debug */,
+				D6715FBA1CCC31A6007AAA62 /* Release */,
+				D6715FBB1CCC31A6007AAA62 /* Distribution */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D6FC8CC41CCC482500799539 /* GymBuddyModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D6FC8CC51CCC482500799539 /* GymBuddyModel0.0.xcdatamodel */,
+				D6FC8CC61CCC482500799539 /* GymBuddyModel1. 4.xcdatamodel */,
+				D6FC8CC71CCC482500799539 /* GymBuddyModel1.0.xcdatamodel */,
+				D6FC8CC81CCC482500799539 /* GymBuddyModel1.1.xcdatamodel */,
+				D6FC8CC91CCC482500799539 /* GymBuddyModel1.2.xcdatamodel */,
+				D6FC8CCA1CCC482500799539 /* GymBuddyModel1.3.xcdatamodel */,
+				D6FC8CCB1CCC482500799539 /* GymBuddyModel1.4.1.xcdatamodel */,
+				D6FC8CCC1CCC482500799539 /* GymBuddyModel1.4.2.xcdatamodel */,
+				D6FC8CCD1CCC482500799539 /* GymBuddyModel1.4.3.xcdatamodel */,
+				D6FC8CCE1CCC482500799539 /* GymBuddyModel1.4.4.xcdatamodel */,
+				D6FC8CCF1CCC482500799539 /* GymBuddyModel1.4.5.xcdatamodel */,
+			);
+			currentVersion = D6FC8CCD1CCC482500799539 /* GymBuddyModel1.4.3.xcdatamodel */;
+			path = GymBuddyModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = D60B4CB014D7A888001ECCE3 /* Project object */;
 }

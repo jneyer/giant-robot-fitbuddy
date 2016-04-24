@@ -96,13 +96,12 @@ class LogbookViewController: UIViewController, UITableViewDataSource, UITableVie
     func layoutChartView () {
         
         self.chart.removeFromSuperview()
-        self.chart.setTranslatesAutoresizingMaskIntoConstraints(false)
         self.chartView.addSubview(self.chart)
         
         var viewsDict = ["insertedView" : self.chart]
         
-        var horizontalConstraints = NSLayoutConstraint.constraintsWithVisualFormat("H:|[insertedView]|", options: NSLayoutFormatOptions(0), metrics: nil, views: viewsDict)
-        var verticalConstraints = NSLayoutConstraint.constraintsWithVisualFormat("V:|[insertedView]|", options: NSLayoutFormatOptions(0), metrics: nil, views: viewsDict)
+        var horizontalConstraints = NSLayoutConstraint.constraintsWithVisualFormat("H:|[insertedView]|", options: NSLayoutFormatOptions(rawValue: 0), metrics: nil, views: viewsDict)
+        var verticalConstraints = NSLayoutConstraint.constraintsWithVisualFormat("V:|[insertedView]|", options: NSLayoutFormatOptions(rawValue: 0), metrics: nil, views: viewsDict)
         self.chartView.addConstraints(horizontalConstraints)
         self.chartView.addConstraints(verticalConstraints)
         
@@ -195,9 +194,7 @@ class LogbookViewController: UIViewController, UITableViewDataSource, UITableVie
         return false
     }
     
-    func sectionIndexTitlesForTableView(tableView: UITableView) -> [AnyObject]! {
-        return nil
-    }
+
     
     func tableView(tableView: UITableView, sectionForSectionIndexTitle title: String, atIndex index: Int) -> Int {
         return 0
@@ -210,9 +207,9 @@ class LogbookViewController: UIViewController, UITableViewDataSource, UITableVie
         let entry = logbookTableData.exerciseForWorktoutAtIndex(workoutSection, workoutIndex: workoutIndex, exerciseIndex: indexPath.row)
         
         if entry.distance != nil {
-            cell.setCellValues(name: entry.exercise_name, workout: entry.workout_name, value: entry.distance, valueType: "distance", exerciseType: ExerciseType.CARDIO)
+            cell.setCellValues(entry.exercise_name, workout: entry.workout_name, value: entry.distance, valueType: "distance", exerciseType: ExerciseType.CARDIO)
         } else {
-            cell.setCellValues(name: entry.exercise_name, workout: entry.workout_name, value: entry.weight, valueType: "weight", exerciseType: ExerciseType.RESISTANCE)
+            cell.setCellValues(entry.exercise_name, workout: entry.workout_name, value: entry.weight, valueType: "weight", exerciseType: ExerciseType.RESISTANCE)
         }
         
         return cell
@@ -222,7 +219,7 @@ class LogbookViewController: UIViewController, UITableViewDataSource, UITableVie
     
         let cell = logbookTableView.dequeueReusableCellWithIdentifier(workoutCellIdentifier) as! WorkoutLogCell
         let value = logbookTableData.workoutAtIndex(indexPath.section, index: indexPath.row)
-        cell.setCellValues(name: value.name, date: value.date)
+        cell.setCellValues(value.name, date: value.date)
         
         return cell
     }
@@ -270,7 +267,12 @@ class LogbookViewController: UIViewController, UITableViewDataSource, UITableVie
                     workout.last_workout = nil
                     
                     var error : NSError?
-                    workout.managedObjectContext?.save(&error)
+                    
+                    do {
+                        try workout.managedObjectContext?.save()
+                    } catch let e as NSError {
+                        error = e
+                    }
                     
                     if error != nil {
                         NSLog("Error updating last workout date: %@", error!)

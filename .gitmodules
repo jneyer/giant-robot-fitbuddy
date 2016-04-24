@@ -1,0 +1,6 @@
+[submodule "FitBuddyModel"]
+	path = FitBuddyModel
+	url = git@github.com:jneyer/fitbuddy-model.git
+[submodule "FitBuddyCommon"]
+	path = FitBuddyCommon
+	url = git@github.com:jneyer/fitbuddy-common.git

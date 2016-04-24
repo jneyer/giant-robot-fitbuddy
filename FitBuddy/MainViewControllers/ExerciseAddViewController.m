@@ -10,7 +10,7 @@
 #import "FitBuddy-Swift.h"
 
 #import "FitBuddyMacros.h"
-
+@import CoreData;
 @implementation ExerciseAddViewController
 
 @synthesize addExerciseField = _addExerciseField;

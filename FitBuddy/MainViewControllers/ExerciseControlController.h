@@ -10,6 +10,7 @@
 #import "FitBuddy-Swift.h"
 
 @import FitBuddyModel;
+@import CoreData;
 
 @interface ExerciseControlController : UIViewController
 

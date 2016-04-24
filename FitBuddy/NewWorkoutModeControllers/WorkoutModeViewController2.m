@@ -10,6 +10,7 @@
 #import "FitBuddyMacros.h"
 
 #import "FitBuddy-Swift.h"
+@import CoreData;
 
 @implementation WorkoutModeViewController2
 

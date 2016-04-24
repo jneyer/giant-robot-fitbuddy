@@ -13,7 +13,7 @@ class WorkoutLogCell: UITableViewCell {
     
     @IBOutlet weak var nameLabel: UILabel!
     
-    func setCellValues (#name: String, date: String) {
+    func setCellValues (name: String, date: String) {
         self.nameLabel.text = name
     }
 }
