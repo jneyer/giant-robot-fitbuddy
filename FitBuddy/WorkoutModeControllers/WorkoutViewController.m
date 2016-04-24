@@ -118,11 +118,18 @@
     UILabel *label = (UILabel *)[cell viewWithTag:101];
     UILabel *dateLabel = (UILabel *)[cell viewWithTag:200];
 
+    CloudKitConnection *ccc = [[CloudKitConnection alloc] init];
+    CloudKitModelManager *ccmm = [[CloudKitModelManager alloc] initWithConnection:ccc];
+    
+    ccmm.getAllWorkouts;
+    
     // Add the data to the cell
     Workout *workout = [self.fetchedResultsController objectAtIndexPath:indexPath];
     label.text = workout.workout_name;
     
     dateLabel.text = [[AppDelegate sharedAppDelegate].modelManager getLastWorkoutDate:workout withFormat:@"dd MMM YYYY"];
+    
+    [ccmm saveModel:workout];
     
     return cell;
 }
