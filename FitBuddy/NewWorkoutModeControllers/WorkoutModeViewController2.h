@@ -9,8 +9,6 @@
 #import <UIKit/UIKit.h>
 #import "ExerciseControlController.h"
 
-#import "FitBuddy-Swift.h"
-
 @interface WorkoutModeViewController2 : ExerciseControlController
 
 // Outlets

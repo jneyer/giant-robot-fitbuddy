@@ -111,7 +111,7 @@ class SettingsIncrementViewController : UIViewController, UIAlertViewDelegate, U
 
         if value == FBConstants.kYES
         {
-            if CoreDataHelper2.coreDataUbiquityURL() == nil {
+            if CoreDataHelper.coreDataUbiquityURL() == nil {
                 
                 let alert = UIAlertView(title: "Can't activate iCloud", message: "It doesn't look like iCloud is enabled on this device. Please go to the Settings app to make sure your iCloud account is set up and active.", delegate: nil, cancelButtonTitle: "OK")
                 alert.show()
@@ -160,7 +160,7 @@ class SettingsIncrementViewController : UIViewController, UIAlertViewDelegate, U
         if recovery {
             
             do {
-                try AppDelegate.sharedAppDelegate().persistentStoreCoordinator!.addPersistentStoreWithType(NSSQLiteStoreType, configuration: nil, URL: CoreDataHelper2.coreDataUbiquityURL()!, options: options)
+                try AppDelegate.sharedAppDelegate().persistentStoreCoordinator!.addPersistentStoreWithType(NSSQLiteStoreType, configuration: nil, URL: CoreDataHelper.coreDataUbiquityURL()!, options: options)
             } catch let e as NSError {
                 error = e
             }
@@ -171,7 +171,7 @@ class SettingsIncrementViewController : UIViewController, UIAlertViewDelegate, U
                 error = e
             }
             
-            FitBuddyUtils.setDefault(FBConstants.kUBIQUITYURLKEY, value: CoreDataHelper2.coreDataUbiquityURL()!.path!)
+            FitBuddyUtils.setDefault(FBConstants.kUBIQUITYURLKEY, value: CoreDataHelper.coreDataUbiquityURL()!.path!)
             
             if error != nil {
                 NSLog("Failed to replace iCloud store with Local store: %@", error!);
@@ -182,7 +182,7 @@ class SettingsIncrementViewController : UIViewController, UIAlertViewDelegate, U
         else {
             
             do {
-                try AppDelegate.sharedAppDelegate().persistentStoreCoordinator!.migratePersistentStore(oldstore, toURL: CoreDataHelper2.coreDataUbiquityURL()!, options: options, withType: NSSQLiteStoreType)
+                try AppDelegate.sharedAppDelegate().persistentStoreCoordinator!.migratePersistentStore(oldstore, toURL: CoreDataHelper.coreDataUbiquityURL()!, options: options, withType: NSSQLiteStoreType)
             } catch let e as NSError {
                 error = e
             }
@@ -203,7 +203,7 @@ class SettingsIncrementViewController : UIViewController, UIAlertViewDelegate, U
         waitForiCloudResponse()
         
         do {
-            try AppDelegate.sharedAppDelegate().persistentStoreCoordinator!.addPersistentStoreWithType(NSSQLiteStoreType, configuration: nil, URL: CoreDataHelper2.coreDataGroupURL(), options: options)
+            try AppDelegate.sharedAppDelegate().persistentStoreCoordinator!.addPersistentStoreWithType(NSSQLiteStoreType, configuration: nil, URL: CoreDataHelper.coreDataGroupURL(), options: options)
         } catch let e as NSError {
             error = e
         }

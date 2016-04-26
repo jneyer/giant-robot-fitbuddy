@@ -45,7 +45,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         self.syncSharedDefaults()
         
         if FitBuddyUtils.isCloudOn() {
-            CoreDataHelper2.migrateiCloudStoreToGroupStore()
+            CoreDataHelper.migrateiCloudStoreToGroupStore()
         }
         
         return true

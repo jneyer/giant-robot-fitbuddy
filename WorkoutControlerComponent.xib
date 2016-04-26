@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7531" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
@@ -274,7 +275,7 @@
                     <rect key="frame" x="236" y="20" width="64" height="171"/>
                     <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                 </view>
-                <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ca8-c6-vw9">
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ca8-c6-vw9">
                     <rect key="frame" x="236" y="199" width="64" height="171"/>
                     <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                 </view>
@@ -282,7 +283,7 @@
                     <rect key="frame" x="164" y="20" width="64" height="171"/>
                     <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                 </view>
-                <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="boX-zl-WSj">
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="boX-zl-WSj">
                     <rect key="frame" x="164" y="199" width="64" height="171"/>
                     <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                 </view>
@@ -290,7 +291,7 @@
                     <rect key="frame" x="92" y="20" width="64" height="171"/>
                     <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                 </view>
-                <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="toV-MY-BiL">
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="toV-MY-BiL">
                     <rect key="frame" x="92" y="199" width="64" height="171"/>
                     <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                 </view>
@@ -298,11 +299,11 @@
                     <rect key="frame" x="236" y="377" width="64" height="171"/>
                     <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                 </view>
-                <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eT0-Ic-e4a">
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eT0-Ic-e4a">
                     <rect key="frame" x="164" y="378" width="64" height="171"/>
                     <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                 </view>
-                <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5tG-0b-VQB">
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5tG-0b-VQB">
                     <rect key="frame" x="92" y="378" width="64" height="171"/>
                     <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                 </view>
@@ -310,11 +311,11 @@
                     <rect key="frame" x="20" y="20" width="64" height="171"/>
                     <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                 </view>
-                <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Zkq-Up-och">
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Zkq-Up-och">
                     <rect key="frame" x="20" y="199" width="64" height="171"/>
                     <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                 </view>
-                <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0hw-jK-Ale">
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0hw-jK-Ale">
                     <rect key="frame" x="20" y="378" width="64" height="170"/>
                     <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                 </view>
@@ -396,7 +397,7 @@
                     <rect key="frame" x="241" y="10" width="69" height="177"/>
                     <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                 </view>
-                <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5jD-Up-qss">
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5jD-Up-qss">
                     <rect key="frame" x="241" y="195" width="69" height="177"/>
                     <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                 </view>
@@ -404,7 +405,7 @@
                     <rect key="frame" x="164" y="10" width="69" height="177"/>
                     <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                 </view>
-                <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zHv-eH-CNT">
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zHv-eH-CNT">
                     <rect key="frame" x="164" y="195" width="69" height="177"/>
                     <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                 </view>
@@ -412,19 +413,19 @@
                     <rect key="frame" x="87" y="10" width="69" height="177"/>
                     <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                 </view>
-                <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AZM-GT-tf5">
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AZM-GT-tf5">
                     <rect key="frame" x="87" y="195" width="69" height="177"/>
                     <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                 </view>
-                <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="igU-qb-ajF">
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="igU-qb-ajF">
                     <rect key="frame" x="241" y="380" width="69" height="177"/>
                     <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                 </view>
-                <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Z4L-0S-ZO8">
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Z4L-0S-ZO8">
                     <rect key="frame" x="164" y="380" width="69" height="177"/>
                     <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                 </view>
-                <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ewT-5X-bMZ">
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ewT-5X-bMZ">
                     <rect key="frame" x="87" y="380" width="69" height="177"/>
                     <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                 </view>
@@ -432,11 +433,11 @@
                     <rect key="frame" x="10" y="10" width="69" height="177"/>
                     <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                 </view>
-                <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Y6L-Uq-kAu">
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Y6L-Uq-kAu">
                     <rect key="frame" x="10" y="195" width="69" height="177"/>
                     <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                 </view>
-                <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yaW-Y1-RP9">
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yaW-Y1-RP9">
                     <rect key="frame" x="10" y="380" width="69" height="178"/>
                     <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                 </view>
@@ -519,9 +520,4 @@
         <image name="gb-undo" width="98" height="98"/>
         <image name="start-button" width="292" height="292"/>
     </resources>
-    <simulatedMetricsContainer key="defaultSimulatedMetrics">
-        <simulatedStatusBarMetrics key="statusBar"/>
-        <simulatedOrientationMetrics key="orientation"/>
-        <simulatedScreenMetrics key="destination" type="retina4"/>
-    </simulatedMetricsContainer>
 </document>

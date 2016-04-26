@@ -10,6 +10,8 @@
 #import "WorkoutModeViewController2.h"
 #import "FitBuddyMacros.h"
 
+#import "FitBuddy-Swift.h"
+
 @import FitBuddyModel;
 
 @interface WorkoutModeParentController2 ()

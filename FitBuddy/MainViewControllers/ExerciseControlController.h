@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "FitBuddy-Swift.h"
+
 
 @import FitBuddyModel;
 @import CoreData;
