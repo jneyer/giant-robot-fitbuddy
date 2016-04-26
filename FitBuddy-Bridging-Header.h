@@ -6,5 +6,7 @@
 #include <zlib.h>
 
 #import "WorkoutModeParentController2.h"
+#import "CoreDataTableViewController.h"
+#import "ExerciseControlController.h"
 
 

@@ -1024,7 +1024,7 @@
         <!--Exercise Edit View Controller-->
         <scene sceneID="yN4-6f-AW2">
             <objects>
-                <viewController id="1qX-cK-kZf" customClass="ExerciseEditViewController" sceneMemberID="viewController">
+                <viewController id="1qX-cK-kZf" customClass="ExerciseEditViewController" customModule="FitBuddy" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="p9e-gh-tzh"/>
                         <viewControllerLayoutGuide type="bottom" id="9GP-TG-ehO"/>
