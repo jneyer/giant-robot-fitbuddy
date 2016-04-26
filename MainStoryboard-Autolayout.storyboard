@@ -1892,7 +1892,7 @@
         <!--Exercise Add View Controller-->
         <scene sceneID="Jay-DE-D7x">
             <objects>
-                <viewController id="LvT-jB-J41" customClass="ExerciseAddViewController" sceneMemberID="viewController">
+                <viewController id="LvT-jB-J41" customClass="ExerciseAddViewController" customModule="FitBuddy" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="i6a-ru-rgM"/>
                         <viewControllerLayoutGuide type="bottom" id="Bh9-IF-c4H"/>
