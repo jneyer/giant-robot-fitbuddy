@@ -641,17 +641,17 @@
         <!--Notes Editor View Controller-->
         <scene sceneID="9lK-vc-15b">
             <objects>
-                <viewController id="5oX-DN-j3q" customClass="NotesEditorViewController" sceneMemberID="viewController">
+                <viewController id="5oX-DN-j3q" customClass="NotesEditorViewController" customModule="FitBuddy" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="pT7-4y-i1J"/>
                         <viewControllerLayoutGuide type="bottom" id="j3e-Vd-KXI"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Ppe-Mc-Mmb">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="455"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="A40-Cv-sUB">
-                                <rect key="frame" x="20" y="0.0" width="280" height="568"/>
+                                <rect key="frame" x="20" y="0.0" width="280" height="455"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -666,7 +666,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="TVQ-62-7Qs"/>
                     <connections>
-                        <outlet property="notesTextView" destination="A40-Cv-sUB" id="Btc-7G-O3H"/>
+                        <outlet property="notesTextView" destination="A40-Cv-sUB" id="yp5-Gy-KuS"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ue1-ax-koL" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -2955,12 +2955,12 @@
         <image name="toggle-workout" width="30" height="30"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="8JF-xZ-Yqb"/>
+        <segue reference="SFG-J3-dQ4"/>
+        <segue reference="QXC-2A-ydR"/>
         <segue reference="d1T-2o-Gz6"/>
         <segue reference="hQE-ya-uqE"/>
+        <segue reference="9yd-OD-MqA"/>
         <segue reference="l6r-Rf-eJl"/>
-        <segue reference="QXC-2A-ydR"/>
-        <segue reference="SFG-J3-dQ4"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" white="0.61889826642335766" alpha="1" colorSpace="calibratedWhite"/>
 </document>
