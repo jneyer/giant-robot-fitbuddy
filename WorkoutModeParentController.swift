@@ -332,6 +332,7 @@ class WorkoutModeParentController : UIViewController, UIPageViewControllerDelega
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         NSLog("Starting segue to final results")
         
+        // TODO : For some reason the current view controller isn't initialized when the workout is closed
         self.currentViewController!.setExerciseFromForm()
         
         if segue.destinationViewController.respondsToSelector("setFinalProgress:") {
