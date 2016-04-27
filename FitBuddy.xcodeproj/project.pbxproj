@@ -17,8 +17,6 @@
 		D60B4CC214D7A888001ECCE3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D60B4CC114D7A888001ECCE3 /* CoreGraphics.framework */; };
 		D616376C1CCD244600D5AC03 /* CoreDataTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D616376B1CCD244600D5AC03 /* CoreDataTableController.swift */; };
 		D616376E1CCECFF400D5AC03 /* SwitchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D616376D1CCECFF400D5AC03 /* SwitchCell.swift */; };
-		D625E86C18B00EF900FFE96D /* WorkoutModeParentController2.m in Sources */ = {isa = PBXBuildFile; fileRef = D625E86618B00ED900FFE96D /* WorkoutModeParentController2.m */; };
-		D625E86E18B00EF900FFE96D /* WorkoutModeViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = D625E86818B00ED900FFE96D /* WorkoutModeViewController2.m */; };
 		D62DB82D1AFBD12B00EA5A55 /* AlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62DB82C1AFBD12B00EA5A55 /* AlertViewController.swift */; };
 		D63E445818AB2DA500A13883 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D63E445718AB2DA500A13883 /* QuartzCore.framework */; };
 		D64C4D0B1CCF9D0400BE675A /* NotesEditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64C4D0A1CCF9D0400BE675A /* NotesEditorViewController.swift */; };
@@ -27,6 +25,9 @@
 		D64C4D311CCFADD800BE675A /* FitBuddyCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D64C4D161CCFAB2A00BE675A /* FitBuddyCommon.framework */; };
 		D64C4D331CCFB00200BE675A /* ExerciseAddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64C4D321CCFB00200BE675A /* ExerciseAddViewController.swift */; };
 		D64C4D371CCFB9A600BE675A /* ExerciseEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64C4D361CCFB9A600BE675A /* ExerciseEditViewController.swift */; };
+		D64C4D391CCFC2FE00BE675A /* ExerciseControlController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64C4D381CCFC2FE00BE675A /* ExerciseControlController.swift */; };
+		D64C4D3D1CCFD4C200BE675A /* WorkoutModeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64C4D3C1CCFD4C200BE675A /* WorkoutModeViewController.swift */; };
+		D64C4D431CCFE44F00BE675A /* WorkoutModeParentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64C4D421CCFE44F00BE675A /* WorkoutModeParentController.swift */; };
 		D655261418CC5BFB00AF55A6 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D655261318CC5BFB00AF55A6 /* Security.framework */; };
 		D666BE0D1AF929CF00256911 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6CEC98A14DA6A6C002DC3B0 /* CoreData.framework */; };
 		D66F5D1D1B14B3C500049FDD /* LogbookChartData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66F5D1C1B14B3C500049FDD /* LogbookChartData.swift */; };
@@ -57,7 +58,6 @@
 		D6C26B2B14F15A710068DEA5 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D6C26B2A14F15A710068DEA5 /* libz.dylib */; };
 		D6C2CA1F170E6BB400BA02DA /* CoreDataTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6C2CA13170E6BB400BA02DA /* CoreDataTableViewController.m */; };
 		D6C2CA21170E6BB400BA02DA /* NSData+CocoaDevUsersAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D6C2CA18170E6BB400BA02DA /* NSData+CocoaDevUsersAdditions.m */; };
-		D6C2CA5C170E6C4000BA02DA /* ExerciseControlController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6C2CA4A170E6C4000BA02DA /* ExerciseControlController.m */; };
 		D6C2CA5E170E6C4000BA02DA /* ExerciseListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6C2CA4E170E6C4000BA02DA /* ExerciseListTableViewController.m */; };
 		D6C2CA64170E6C4000BA02DA /* WorkoutAddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6C2CA5A170E6C4000BA02DA /* WorkoutAddViewController.m */; };
 		D6C2CA73170E6C8800BA02DA /* WorkoutSummaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6C2CA6E170E6C8800BA02DA /* WorkoutSummaryViewController.m */; };
@@ -190,10 +190,6 @@
 		D6135CD3151027D30055F337 /* FitBuddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitBuddy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D616376B1CCD244600D5AC03 /* CoreDataTableController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CoreDataTableController.swift; path = FitBuddyModel/FitBuddyModel/coredata/CoreDataTableController.swift; sourceTree = SOURCE_ROOT; };
 		D616376D1CCECFF400D5AC03 /* SwitchCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwitchCell.swift; path = FitBuddy/SwitchCell.swift; sourceTree = SOURCE_ROOT; };
-		D625E86518B00ED900FFE96D /* WorkoutModeParentController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WorkoutModeParentController2.h; path = FitBuddy/NewWorkoutModeControllers/WorkoutModeParentController2.h; sourceTree = SOURCE_ROOT; };
-		D625E86618B00ED900FFE96D /* WorkoutModeParentController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WorkoutModeParentController2.m; path = FitBuddy/NewWorkoutModeControllers/WorkoutModeParentController2.m; sourceTree = SOURCE_ROOT; };
-		D625E86718B00ED900FFE96D /* WorkoutModeViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WorkoutModeViewController2.h; path = FitBuddy/NewWorkoutModeControllers/WorkoutModeViewController2.h; sourceTree = SOURCE_ROOT; };
-		D625E86818B00ED900FFE96D /* WorkoutModeViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WorkoutModeViewController2.m; path = FitBuddy/NewWorkoutModeControllers/WorkoutModeViewController2.m; sourceTree = SOURCE_ROOT; };
 		D62D027D1B0418CC00A6641B /* FitBuddy WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = "FitBuddy WatchKit Extension.entitlements"; path = "FitBuddy WatchKit Extension/FitBuddy WatchKit Extension.entitlements"; sourceTree = "<group>"; };
 		D62DB82C1AFBD12B00EA5A55 /* AlertViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertViewController.swift; sourceTree = "<group>"; };
 		D63E445718AB2DA500A13883 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -206,6 +202,9 @@
 		D64C4D231CCFAB9C00BE675A /* FitBuddyCommon.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = FitBuddyCommon.xcodeproj; path = FitBuddyCommon/FitBuddyCommon.xcodeproj; sourceTree = "<group>"; };
 		D64C4D321CCFB00200BE675A /* ExerciseAddViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ExerciseAddViewController.swift; path = FitBuddy/MainViewControllers/ExerciseAddViewController.swift; sourceTree = SOURCE_ROOT; };
 		D64C4D361CCFB9A600BE675A /* ExerciseEditViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExerciseEditViewController.swift; sourceTree = SOURCE_ROOT; };
+		D64C4D381CCFC2FE00BE675A /* ExerciseControlController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExerciseControlController.swift; sourceTree = SOURCE_ROOT; };
+		D64C4D3C1CCFD4C200BE675A /* WorkoutModeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutModeViewController.swift; sourceTree = SOURCE_ROOT; };
+		D64C4D421CCFE44F00BE675A /* WorkoutModeParentController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutModeParentController.swift; sourceTree = SOURCE_ROOT; };
 		D655261118CC5BC900AF55A6 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		D655261318CC5BFB00AF55A6 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		D6570A7A1B041E0D00DD945A /* FitBuddy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = FitBuddy.entitlements; path = FitBuddy/FitBuddy.entitlements; sourceTree = "<group>"; };
@@ -245,8 +244,6 @@
 		D6C2CA16170E6BB400BA02DA /* FitBuddyMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FitBuddyMacros.h; path = FitBuddy/Components/FitBuddyMacros.h; sourceTree = SOURCE_ROOT; };
 		D6C2CA17170E6BB400BA02DA /* NSData+CocoaDevUsersAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSData+CocoaDevUsersAdditions.h"; path = "FitBuddy/Components/NSData+CocoaDevUsersAdditions.h"; sourceTree = SOURCE_ROOT; };
 		D6C2CA18170E6BB400BA02DA /* NSData+CocoaDevUsersAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSData+CocoaDevUsersAdditions.m"; path = "FitBuddy/Components/NSData+CocoaDevUsersAdditions.m"; sourceTree = SOURCE_ROOT; };
-		D6C2CA49170E6C4000BA02DA /* ExerciseControlController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ExerciseControlController.h; path = FitBuddy/MainViewControllers/ExerciseControlController.h; sourceTree = SOURCE_ROOT; };
-		D6C2CA4A170E6C4000BA02DA /* ExerciseControlController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ExerciseControlController.m; path = FitBuddy/MainViewControllers/ExerciseControlController.m; sourceTree = SOURCE_ROOT; };
 		D6C2CA4D170E6C4000BA02DA /* ExerciseListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ExerciseListTableViewController.h; path = FitBuddy/MainViewControllers/ExerciseListTableViewController.h; sourceTree = SOURCE_ROOT; };
 		D6C2CA4E170E6C4000BA02DA /* ExerciseListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ExerciseListTableViewController.m; path = FitBuddy/MainViewControllers/ExerciseListTableViewController.m; sourceTree = SOURCE_ROOT; };
 		D6C2CA59170E6C4000BA02DA /* WorkoutAddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WorkoutAddViewController.h; path = FitBuddy/MainViewControllers/WorkoutAddViewController.h; sourceTree = SOURCE_ROOT; };
@@ -398,7 +395,6 @@
 			children = (
 				D696191B18A6AC8B002FE7C2 /* AppDelegate */,
 				D6C2CA65170E6C4C00BA02DA /* MainViewControllers */,
-				D625E85818B00D5600FFE96D /* New Workout Mode */,
 				D6C2CA68170E6C8800BA02DA /* WorkoutModeControllers */,
 				D696191A18A6A9C4002FE7C2 /* Utilities */,
 				D67825D614E583B600C00BD4 /* Components */,
@@ -432,18 +428,6 @@
 				D616376B1CCD244600D5AC03 /* CoreDataTableController.swift */,
 			);
 			name = components;
-			sourceTree = "<group>";
-		};
-		D625E85818B00D5600FFE96D /* New Workout Mode */ = {
-			isa = PBXGroup;
-			children = (
-				D625E86518B00ED900FFE96D /* WorkoutModeParentController2.h */,
-				D625E86618B00ED900FFE96D /* WorkoutModeParentController2.m */,
-				D625E86718B00ED900FFE96D /* WorkoutModeViewController2.h */,
-				D625E86818B00ED900FFE96D /* WorkoutModeViewController2.m */,
-			);
-			name = "New Workout Mode";
-			path = ../FitBuddy/WorkoutModeControllers;
 			sourceTree = "<group>";
 		};
 		D6454FBE1AF7C0C0008291A8 /* Watchkit Interface */ = {
@@ -585,8 +569,6 @@
 		D6C2CA65170E6C4C00BA02DA /* MainViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				D6C2CA49170E6C4000BA02DA /* ExerciseControlController.h */,
-				D6C2CA4A170E6C4000BA02DA /* ExerciseControlController.m */,
 				D6C2CA4D170E6C4000BA02DA /* ExerciseListTableViewController.h */,
 				D6C2CA4E170E6C4000BA02DA /* ExerciseListTableViewController.m */,
 			);
@@ -621,12 +603,15 @@
 				D6ABF8461B0A260D004FB4A3 /* chart */,
 				D6D32F7A1AED6B020057F00B /* AppDelegate.swift */,
 				D64C4D321CCFB00200BE675A /* ExerciseAddViewController.swift */,
+				D64C4D381CCFC2FE00BE675A /* ExerciseControlController.swift */,
 				D64C4D361CCFB9A600BE675A /* ExerciseEditViewController.swift */,
 				D60910581B014DA2001D86C9 /* SettingsViewController.swift */,
 				D609105C1B015A35001D86C9 /* SettingsIncrementViewController.swift */,
 				D68F6DC81B0844D000F99E3F /* LogbookViewController.swift */,
 				D68F6DC61B07C3EC00F99E3F /* LogbookEntryViewController.swift */,
 				D64C4D0A1CCF9D0400BE675A /* NotesEditorViewController.swift */,
+				D64C4D421CCFE44F00BE675A /* WorkoutModeParentController.swift */,
+				D64C4D3C1CCFD4C200BE675A /* WorkoutModeViewController.swift */,
 				D6D32F7D1AED6C580057F00B /* WorkoutViewController.swift */,
 				D6B088A61AF127DD00962EDB /* utilities */,
 			);
@@ -1005,8 +990,6 @@
 				D66F5D1F1B15122400049FDD /* LogbookTableData.swift in Sources */,
 				D6D32F7B1AED6B020057F00B /* AppDelegate.swift in Sources */,
 				D6715FDA1CCC3E88007AAA62 /* GymBuddyMappingModel1.2.xcmappingmodel in Sources */,
-				D625E86C18B00EF900FFE96D /* WorkoutModeParentController2.m in Sources */,
-				D625E86E18B00EF900FFE96D /* WorkoutModeViewController2.m in Sources */,
 				D64C4D331CCFB00200BE675A /* ExerciseAddViewController.swift in Sources */,
 				D6B088A81AF1280800962EDB /* NSData+GZIP.swift in Sources */,
 				D601921318AFDF6F00255256 /* DemoContentViewController.m in Sources */,
@@ -1015,8 +998,9 @@
 				D6C2CA21170E6BB400BA02DA /* NSData+CocoaDevUsersAdditions.m in Sources */,
 				D68F6DD31B09900600F99E3F /* LineChart.swift in Sources */,
 				D6715FD81CCC3E88007AAA62 /* GymBuddyMappingModel1.0.xcmappingmodel in Sources */,
-				D6C2CA5C170E6C4000BA02DA /* ExerciseControlController.m in Sources */,
 				D64C4D0B1CCF9D0400BE675A /* NotesEditorViewController.swift in Sources */,
+				D64C4D431CCFE44F00BE675A /* WorkoutModeParentController.swift in Sources */,
+				D64C4D3D1CCFD4C200BE675A /* WorkoutModeViewController.swift in Sources */,
 				D6715FD91CCC3E88007AAA62 /* GymBuddyMappingModel1.1.xcmappingmodel in Sources */,
 				D6C2CA5E170E6C4000BA02DA /* ExerciseListTableViewController.m in Sources */,
 				D66F5D1D1B14B3C500049FDD /* LogbookChartData.swift in Sources */,
@@ -1025,6 +1009,7 @@
 				D609105D1B015A35001D86C9 /* SettingsIncrementViewController.swift in Sources */,
 				D6D32F7E1AED6C580057F00B /* WorkoutViewController.swift in Sources */,
 				D68F6DCB1B08E9AB00F99E3F /* ExerciseLogCell.swift in Sources */,
+				D64C4D391CCFC2FE00BE675A /* ExerciseControlController.swift in Sources */,
 				D6C2CA64170E6C4000BA02DA /* WorkoutAddViewController.m in Sources */,
 				D601920F18AFDF0C00255256 /* DemoViewController.m in Sources */,
 				D60910591B014DA2001D86C9 /* SettingsViewController.swift in Sources */,

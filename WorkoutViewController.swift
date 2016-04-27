@@ -13,6 +13,7 @@ import CoreData
 import FitBuddyModel
 import CloudKit
 
+@objc
 class WorkoutViewController : CoreDataTableController, CloudKitOperationDelegate {
     
     @IBOutlet weak var editButton: UIBarButtonItem?
@@ -191,7 +192,7 @@ class WorkoutViewController : CoreDataTableController, CloudKitOperationDelegate
             // [((WorkoutModeParentController2 *)[segue.destinationViewController topViewController]) setWorkout:workout];
             
             if let workout = self.fetchedResultsController?.objectAtIndexPath(self.tableView!.indexPathForSelectedRow!) as? Workout {
-                if let destination = segue.destinationViewController.childViewControllers[0] as? WorkoutModeParentController2 {
+                if let destination = segue.destinationViewController.childViewControllers[0] as? WorkoutModeParentController {
                     destination.workout = workout
                 }
             }

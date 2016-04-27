@@ -8,8 +8,9 @@
 
 import Foundation
 import FitBuddyCommon
+import FitBuddyModel
 
-
+@objc
 class ExerciseEditViewController : ExerciseControlController {
     
     @IBOutlet weak var nameLabel : UITextField?
