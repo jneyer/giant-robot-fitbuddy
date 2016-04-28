@@ -20,9 +20,6 @@
 		D62DB82D1AFBD12B00EA5A55 /* AlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62DB82C1AFBD12B00EA5A55 /* AlertViewController.swift */; };
 		D63E445818AB2DA500A13883 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D63E445718AB2DA500A13883 /* QuartzCore.framework */; };
 		D64C4D0B1CCF9D0400BE675A /* NotesEditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64C4D0A1CCF9D0400BE675A /* NotesEditorViewController.swift */; };
-		D64C4D2C1CCFABEA00BE675A /* FitBuddyCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D64C4D161CCFAB2A00BE675A /* FitBuddyCommon.framework */; };
-		D64C4D2D1CCFABEA00BE675A /* FitBuddyModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D64C4D151CCFAB2A00BE675A /* FitBuddyModel.framework */; };
-		D64C4D311CCFADD800BE675A /* FitBuddyCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D64C4D161CCFAB2A00BE675A /* FitBuddyCommon.framework */; };
 		D64C4D331CCFB00200BE675A /* ExerciseAddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64C4D321CCFB00200BE675A /* ExerciseAddViewController.swift */; };
 		D64C4D371CCFB9A600BE675A /* ExerciseEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64C4D361CCFB9A600BE675A /* ExerciseEditViewController.swift */; };
 		D64C4D391CCFC2FE00BE675A /* ExerciseControlController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64C4D381CCFC2FE00BE675A /* ExerciseControlController.swift */; };
@@ -194,10 +191,10 @@
 		D62DB82C1AFBD12B00EA5A55 /* AlertViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertViewController.swift; sourceTree = "<group>"; };
 		D63E445718AB2DA500A13883 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		D64C4D0A1CCF9D0400BE675A /* NotesEditorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotesEditorViewController.swift; sourceTree = SOURCE_ROOT; };
-		D64C4D151CCFAB2A00BE675A /* FitBuddyModel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FitBuddyModel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D64C4D161CCFAB2A00BE675A /* FitBuddyCommon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FitBuddyCommon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D64C4D171CCFAB2A00BE675A /* FitBuddyModelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitBuddyModelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D64C4D181CCFAB2A00BE675A /* FitBuddyCommonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitBuddyCommonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D64C4D151CCFAB2A00BE675A /* FitBuddyModel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FitBuddyModel.framework; path = "/Users/jneyer/Unity/Projects/giant-robot-fitbuddy/build/Debug-iphoneos/FitBuddyModel.framework"; sourceTree = "<absolute>"; };
+		D64C4D161CCFAB2A00BE675A /* FitBuddyCommon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FitBuddyCommon.framework; path = "/Users/jneyer/Unity/Projects/giant-robot-fitbuddy/build/Debug-iphoneos/FitBuddyCommon.framework"; sourceTree = "<absolute>"; };
+		D64C4D171CCFAB2A00BE675A /* FitBuddyModelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = FitBuddyModelTests.xctest; path = "/Users/jneyer/Unity/Projects/giant-robot-fitbuddy/build/Debug-iphoneos/FitBuddyModelTests.xctest"; sourceTree = "<absolute>"; };
+		D64C4D181CCFAB2A00BE675A /* FitBuddyCommonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = FitBuddyCommonTests.xctest; path = "/Users/jneyer/Unity/Projects/giant-robot-fitbuddy/build/Debug-iphoneos/FitBuddyCommonTests.xctest"; sourceTree = "<absolute>"; };
 		D64C4D191CCFAB7400BE675A /* FitBuddyModel.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = FitBuddyModel.xcodeproj; path = FitBuddyModel/FitBuddyModel.xcodeproj; sourceTree = "<group>"; };
 		D64C4D231CCFAB9C00BE675A /* FitBuddyCommon.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = FitBuddyCommon.xcodeproj; path = FitBuddyCommon/FitBuddyCommon.xcodeproj; sourceTree = "<group>"; };
 		D64C4D321CCFB00200BE675A /* ExerciseAddViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ExerciseAddViewController.swift; path = FitBuddy/MainViewControllers/ExerciseAddViewController.swift; sourceTree = SOURCE_ROOT; };
@@ -280,8 +277,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D64C4D2C1CCFABEA00BE675A /* FitBuddyCommon.framework in Frameworks */,
-				D64C4D2D1CCFABEA00BE675A /* FitBuddyModel.framework in Frameworks */,
 				D6C26B2B14F15A710068DEA5 /* libz.dylib in Frameworks */,
 				D63E445818AB2DA500A13883 /* QuartzCore.framework in Frameworks */,
 				D60B4CC214D7A888001ECCE3 /* CoreGraphics.framework in Frameworks */,
@@ -321,7 +316,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D64C4D311CCFADD800BE675A /* FitBuddyCommon.framework in Frameworks */,
 				D666BE0D1AF929CF00256911 /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -362,10 +356,6 @@
 				D6135CD3151027D30055F337 /* FitBuddy.app */,
 				D6715FB11CCC2ECC007AAA62 /* FitBuddy WatchKit Extension.appex */,
 				D6715FB21CCC2ECC007AAA62 /* FitBuddy WatchKit App.app */,
-				D64C4D151CCFAB2A00BE675A /* FitBuddyModel.framework */,
-				D64C4D161CCFAB2A00BE675A /* FitBuddyCommon.framework */,
-				D64C4D171CCFAB2A00BE675A /* FitBuddyModelTests.xctest */,
-				D64C4D181CCFAB2A00BE675A /* FitBuddyCommonTests.xctest */,
 			);
 			sourceTree = "<group>";
 		};
