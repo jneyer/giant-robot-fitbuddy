@@ -191,10 +191,6 @@
 		D62DB82C1AFBD12B00EA5A55 /* AlertViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertViewController.swift; sourceTree = "<group>"; };
 		D63E445718AB2DA500A13883 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		D64C4D0A1CCF9D0400BE675A /* NotesEditorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotesEditorViewController.swift; sourceTree = SOURCE_ROOT; };
-		D64C4D151CCFAB2A00BE675A /* FitBuddyModel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FitBuddyModel.framework; path = "/Users/jneyer/Unity/Projects/giant-robot-fitbuddy/build/Debug-iphoneos/FitBuddyModel.framework"; sourceTree = "<absolute>"; };
-		D64C4D161CCFAB2A00BE675A /* FitBuddyCommon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FitBuddyCommon.framework; path = "/Users/jneyer/Unity/Projects/giant-robot-fitbuddy/build/Debug-iphoneos/FitBuddyCommon.framework"; sourceTree = "<absolute>"; };
-		D64C4D171CCFAB2A00BE675A /* FitBuddyModelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = FitBuddyModelTests.xctest; path = "/Users/jneyer/Unity/Projects/giant-robot-fitbuddy/build/Debug-iphoneos/FitBuddyModelTests.xctest"; sourceTree = "<absolute>"; };
-		D64C4D181CCFAB2A00BE675A /* FitBuddyCommonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = FitBuddyCommonTests.xctest; path = "/Users/jneyer/Unity/Projects/giant-robot-fitbuddy/build/Debug-iphoneos/FitBuddyCommonTests.xctest"; sourceTree = "<absolute>"; };
 		D64C4D191CCFAB7400BE675A /* FitBuddyModel.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = FitBuddyModel.xcodeproj; path = FitBuddyModel/FitBuddyModel.xcodeproj; sourceTree = "<group>"; };
 		D64C4D231CCFAB9C00BE675A /* FitBuddyCommon.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = FitBuddyCommon.xcodeproj; path = FitBuddyCommon/FitBuddyCommon.xcodeproj; sourceTree = "<group>"; };
 		D64C4D321CCFB00200BE675A /* ExerciseAddViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ExerciseAddViewController.swift; path = FitBuddy/MainViewControllers/ExerciseAddViewController.swift; sourceTree = SOURCE_ROOT; };
@@ -252,6 +248,10 @@
 		D6C2CB0B170E6D5300BA02DA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
 		D6C49F871901FECC001A8E41 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		D6C49F891901FF68001A8E41 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		D6CA89301CD25388001510D3 /* FitBuddyModel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FitBuddyModel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6CA89311CD25388001510D3 /* FitBuddyCommon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FitBuddyCommon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6CA89321CD25388001510D3 /* FitBuddyModelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitBuddyModelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6CA89331CD25388001510D3 /* FitBuddyCommonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitBuddyCommonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6CEC98A14DA6A6C002DC3B0 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		D6D32F7A1AED6B020057F00B /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = SOURCE_ROOT; };
 		D6D32F7D1AED6C580057F00B /* WorkoutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutViewController.swift; sourceTree = SOURCE_ROOT; };
@@ -356,6 +356,10 @@
 				D6135CD3151027D30055F337 /* FitBuddy.app */,
 				D6715FB11CCC2ECC007AAA62 /* FitBuddy WatchKit Extension.appex */,
 				D6715FB21CCC2ECC007AAA62 /* FitBuddy WatchKit App.app */,
+				D6CA89301CD25388001510D3 /* FitBuddyModel.framework */,
+				D6CA89311CD25388001510D3 /* FitBuddyCommon.framework */,
+				D6CA89321CD25388001510D3 /* FitBuddyModelTests.xctest */,
+				D6CA89331CD25388001510D3 /* FitBuddyCommonTests.xctest */,
 			);
 			sourceTree = "<group>";
 		};
@@ -663,7 +667,7 @@
 			);
 			name = FitBuddyCommon;
 			productName = FitBuddyCommon;
-			productReference = D64C4D161CCFAB2A00BE675A /* FitBuddyCommon.framework */;
+			productReference = D6CA89311CD25388001510D3 /* FitBuddyCommon.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		D687907B1AF927B000D8E6DE /* FitBuddyCommonTests */ = {
@@ -682,7 +686,7 @@
 			);
 			name = FitBuddyCommonTests;
 			productName = FitBuddyCommonTests;
-			productReference = D64C4D181CCFAB2A00BE675A /* FitBuddyCommonTests.xctest */;
+			productReference = D6CA89331CD25388001510D3 /* FitBuddyCommonTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		D6B174CB1AFA5043009E40D3 /* FitBuddy WatchKit Extension */ = {
@@ -735,7 +739,7 @@
 			);
 			name = FitBuddyModel;
 			productName = FitBuddyModel;
-			productReference = D64C4D151CCFAB2A00BE675A /* FitBuddyModel.framework */;
+			productReference = D6CA89301CD25388001510D3 /* FitBuddyModel.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		D6DC0D471AF8FC6D00988D65 /* FitBuddyModelTests */ = {
@@ -754,7 +758,7 @@
 			);
 			name = FitBuddyModelTests;
 			productName = FitBuddyModelTests;
-			productReference = D64C4D171CCFAB2A00BE675A /* FitBuddyModelTests.xctest */;
+			productReference = D6CA89321CD25388001510D3 /* FitBuddyModelTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
